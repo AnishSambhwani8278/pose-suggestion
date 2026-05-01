@@ -43,7 +43,10 @@ const App = () => {
     "poses/pose27.png",
     "poses/pose28.png",
     "poses/pose29.png",
-    "poses/pose30.png"
+    "poses/pose30.png",
+    "poses/pose31.png",
+    "poses/pose32.png",
+    "poses/pose33.png"
   ];
 
   useEffect(() => {
@@ -182,6 +185,9 @@ const App = () => {
           27. Jumping Mid-Air Pose – body airborne, knees bent slightly upward, arms lifted outward, joyful candid action shot.
           28. Forward Bend Laughing Pose – torso bent slightly forward, hands on thighs or knees, head lowered as if laughing naturally.
           29. Model Runway Pose – one foot placed directly in front of other, hips angled, shoulders back, one arm loose, elegant fashion posture.
+          30. Relaxed Standing Pose with Hands Clasped in Front – upright posture, feet slightly apart, both hands loosely clasped together in front of lower torso, shoulders relaxed, neutral stance.
+          31. One Foot Raised on Toes Casual Pose – body upright, weight on one leg, opposite foot lightly touching ground with heel raised (on toes), arms relaxed by sides, subtle dynamic posture.
+          32. Side Lean with Arms Loose Behind Back – body angled sideways, slight lean on one hip, both arms loosely held behind back without stiffness, relaxed observational stance.
           `,
         },
         frameData,

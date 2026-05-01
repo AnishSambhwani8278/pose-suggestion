@@ -11,7 +11,7 @@ A web-based application that acts as your AI photography assistant. Point the ca
 
 ## Important Notes & Limitations
 - **No Selfie Poses (Yet):** Currently, the application is designed primarily for back-camera or full-body photography and **does not include poses suitable for selfies**.
-- **Pose Library Size:** The app can suggest from a curated library of up to **30 unique poses** for now.
+- **Pose Library Size:** The app can suggest from a curated library of up to **33 unique poses** for now.
 
 ## How to Use
 1. Allow camera permissions when prompted by your browser.
