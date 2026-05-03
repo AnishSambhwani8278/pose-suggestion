@@ -46,7 +46,12 @@ const App = () => {
     "poses/pose30.png",
     "poses/pose31.png",
     "poses/pose32.png",
-    "poses/pose33.png"
+    "poses/pose33.png",
+    "poses/pose34_selfie.png",
+    "poses/pose35_selfie.png",
+    "poses/pose36_selfie.png",
+    "poses/pose37_selfie.png",
+    "poses/pose38_selfie.png"
   ];
 
   useEffect(() => {
@@ -155,6 +160,7 @@ const App = () => {
       const result = await model.generateContent([
         {
           text: `Analyze this image and suggest 1 pose out of these and just return the numerical index of the best pose. 
+          Back Camera Poses: 
           0. Front Standing Pose with Both Hands in Pants Pockets – relaxed upright posture, shoulders neutral, feet shoulder-width apart, both hands casually inserted into front pockets, facing camera directly.
           1. Front Standing Pose with Raised Peace Sign Gesture – upright neutral standing position, one arm relaxed downward, opposite arm lifted beside shoulder making a V-sign/peace sign with fingers.
           2. Front Standing Pose with Arms Folded Across Chest – upright posture, both arms crossed naturally over torso, feet apart, confident casual stance.
@@ -188,6 +194,13 @@ const App = () => {
           30. Relaxed Standing Pose with Hands Clasped in Front – upright posture, feet slightly apart, both hands loosely clasped together in front of lower torso, shoulders relaxed, neutral stance.
           31. One Foot Raised on Toes Casual Pose – body upright, weight on one leg, opposite foot lightly touching ground with heel raised (on toes), arms relaxed by sides, subtle dynamic posture.
           32. Side Lean with Arms Loose Behind Back – body angled sideways, slight lean on one hip, both arms loosely held behind back without stiffness, relaxed observational stance.
+          
+          Selfie Camera Poses:
+          33. Classic Front Selfie Pose with Slight Head Tilt – arm extended forward holding phone at eye level, body facing camera, head slightly tilted sideways, shoulders relaxed, neutral casual expression.
+          34. Overhead Angle Selfie Pose (Top-Down Look) – arm raised above head holding phone angled downward, face tilted upward toward camera, neck slightly extended, shoulders angled inward.
+          35. Mirror Selfie Pose with One Hand in Pocket – body facing mirror, one arm holding phone in front of face or chest, opposite hand inside pocket, weight shifted to one leg, relaxed stance.
+          36. Side Angle Selfie Pose with Face Turn – phone held slightly to one side of body, camera angled diagonally toward face, torso slightly rotated, head turned toward phone.
+          37. Sitting Casual Selfie Pose with Knee Raised – seated position, one knee bent upward, phone held in front slightly above eye level, torso slightly leaning forward, relaxed candid posture.
           `,
         },
         frameData,
