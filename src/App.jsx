@@ -51,7 +51,16 @@ const App = () => {
     "poses/pose35_selfie.png",
     "poses/pose36_selfie.png",
     "poses/pose37_selfie.png",
-    "poses/pose38_selfie.png"
+    "poses/pose38_selfie.png",
+    "poses/pose39_selfie.png",
+    "poses/pose40_selfie.png",
+    "poses/pose41_selfie.png",
+    "poses/pose42_selfie.png",
+    "poses/pose43_selfie.png",
+    "poses/pose44_selfie.png",
+    "poses/pose45_selfie.png",
+    "poses/pose46_selfie.png",
+    "poses/pose47_selfie.png"
   ];
 
   useEffect(() => {
@@ -201,6 +210,15 @@ const App = () => {
           35. Mirror Selfie Pose with One Hand in Pocket – body facing mirror, one arm holding phone in front of face or chest, opposite hand inside pocket, weight shifted to one leg, relaxed stance.
           36. Side Angle Selfie Pose with Face Turn – phone held slightly to one side of body, camera angled diagonally toward face, torso slightly rotated, head turned toward phone.
           37. Sitting Casual Selfie Pose with Knee Raised – seated position, one knee bent upward, phone held in front slightly above eye level, torso slightly leaning forward, relaxed candid posture.
+          38. Peace Sign Selfie Pose – camera held at eye level in front, face centered toward camera, one arm extended holding phone, opposite hand raised near face forming a V/peace sign gesture, shoulders relaxed.
+          39. Hand on Head Selfie Pose – camera at eye level, one arm extended forward holding phone, opposite hand placed on top or back of head, elbow angled outward, torso facing camera.
+          40. Chin Rest Selfie Pose – camera held at eye level, face directed toward camera, one arm extended holding phone, opposite hand resting under chin with fingers supporting jaw, thoughtful pose.
+          41. Playful Tilt Selfie Pose – camera slightly above eye level angled downward, head tilted sideways, one arm extended holding phone, opposite hand raised near eye forming a V/peace or playful gesture, casual expressive stance.
+          42. Thumbs Up Selfie Pose – camera held at eye level in front, face centered toward camera, one arm extended holding phone, opposite hand raised near chest forming a thumbs-up gesture, shoulders relaxed.
+          43. Wave Selfie Pose – camera at eye level, face directed toward camera, one arm extended holding phone, opposite hand raised with open palm facing outward in a waving gesture, elbow slightly bent.
+          44. Over-the-Shoulder Selfie Pose – camera held slightly to the side and behind, body turned away from camera, torso facing opposite direction, head rotated back over shoulder toward camera, one arm extended holding phone.
+          45. Looking Away Selfie Pose – camera at eye level, body facing camera, head turned sideways away from camera, gaze directed off-frame, one arm extended holding phone, relaxed posture.
+          46. Hand Near Face Selfie Pose – camera at eye level, face centered toward camera, one arm extended holding phone, opposite hand raised near cheek or jawline with fingers lightly touching face, soft casual pose.
           `,
         },
         frameData,
